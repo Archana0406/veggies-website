@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+#home{
+    width:100vw;
+    height:100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.452),rgba(218, 216, 216, 0.3),rgba(244, 241, 241, 0.4)),url(veg.webp);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap:20px;
+}
+#home .input-group{
+  width:50%;
+}
+#home .input-group #mail{
+  border: none;
+  outline: none;
+  width:75%;
+  padding-left:10px;
+}
+#home button{
+  width:25%;
+ }
+nav .navbar-brand,.navbar-nav .nav-link {
+ color: white;
+}
+#home h1{
+  font-size: 80px;
+  color: #fff;
+}
+#products img{
+  width:250px;
+  height:300px;
+  padding:10px;
+  border-radius: 10px;
+}
+.card{
+  padding:2px;
+  box-shadow: 15px 20px 20px rgba(0,0,0,0.3),inset 4px 4px 10px white;
+  background-color: rgb(255, 255, 255);
+}
+.card:hover{
+  box-shadow: inset 5px 5px 10px rgba(0,0,0,0.3),4px 4px 10px white;
+
+}
+#about img{
+  overflow: hidden;
+}
+#about .text{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: rgb(0, 0, 0);
+font-size: 27px; 
+font-weight: bold;
+text-align: center; 
+}
+#contact{
+  width:100vw;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;  
+  position: relative;
+  color:white;
+  background-image: url(greenbg1.avif);
+}
+#contact h1{
+  /* margin:auto; */
+  width:180px;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  /* padding-top:20%; */
+}
+#contact footer {
+  position:absolute;
+  width:100%;
+  height:100px;
+  bottom:0;
+  left:0;
+  right:0;
+}
+#contact{
+  flex-direction: column;
+  gap:10px;
+  padding:20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contact footer img{
+  margin-left:10px;
+  margin-right: 10px;
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding:2px;
+  transition: all 0.2s linear;
+}
+#contact footer img:hover{
+  background-color: #ccc;
+  transform: translateY(-10px);
+  bottom:50px;
+}
